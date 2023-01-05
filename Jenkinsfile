@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/JNshimba22/geolocation.git'
+                git branch: 'main', url: 'https://github.com/JNshimba22/helloworld-22.git'
             }
         }
         stage('Code Build') {
